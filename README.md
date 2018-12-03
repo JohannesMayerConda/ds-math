@@ -6,6 +6,8 @@
 
 This library is a fork of <a href="https://github.com/dapphub/ds-math">dapphub's ds-math</a> that changed the code to a library and shows a sample implementation. Via ds-math you can e.g. multiply decimal numbers where both numbers are bellow zero which isn't as easy using OpenZeppelin <a href="https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/math/SafeMath.sol">SafeMath</a>.
 
+This should have been a PullRequest but is now a standalone project: <a href="https://github.com/dapphub/ds-math/issues/9">See discussion</a>
+
 ```solidity
 1.1 * 2.2 == 2.42
 
